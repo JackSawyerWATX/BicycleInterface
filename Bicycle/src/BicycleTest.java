@@ -4,11 +4,11 @@ class BicycleTest {
         Bicycle b = new Bicycle();
 
         // print constant
-        System.out.println(Bicycle.myConstant);
+        System.out.println("version " + Bicycle.myConstant);
         b.sayHello();
         Bicycle.staticMethod();
-        b.speedUp(3);
-        b.applyBrakes(2);
-        System.out.println(b.getSpeed());
+        b.speedUp(35);
+        b.applyBrakes(8);
+        System.out.println(b.getSpeed() + " mph");
     }
 }
