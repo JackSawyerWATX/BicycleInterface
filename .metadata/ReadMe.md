@@ -1,0 +1,1 @@
+This is an an instance of an interface.
